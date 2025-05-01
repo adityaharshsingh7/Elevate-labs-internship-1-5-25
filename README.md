@@ -1,6 +1,6 @@
  Heart Disease Classification using Tree-Based Models
 
- 📊 Dataset
+Dataset
 This project uses the [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset) from Kaggle. The dataset contains information about patients, including medical attributes such as age, cholesterol level, chest pain type, etc., and a target variable indicating the presence of heart disease.
 
 - Rows: 303
@@ -9,7 +9,7 @@ This project uses the [Heart Disease Dataset](https://www.kaggle.com/datasets/jo
 
 
 
- 🎯 Objectives
+ Objectives
 
 1. Train a Decision Tree Classifier and visualize the tree.
 2. Analyze overfitting and control tree depth.
@@ -19,7 +19,7 @@ This project uses the [Heart Disease Dataset](https://www.kaggle.com/datasets/jo
 
 
 
- ⚙️ Tools & Libraries
+Tools & Libraries
 - Python
 - Pandas, NumPy
 - Scikit-learn (`DecisionTreeClassifier`, `RandomForestClassifier`)
@@ -28,7 +28,7 @@ This project uses the [Heart Disease Dataset](https://www.kaggle.com/datasets/jo
 
 
 
- 📌 Steps Performed
+Steps Performed
 
  1. Data Loading & Preparation
 - Read the dataset from `heart.csv`.
@@ -59,28 +59,10 @@ This project uses the [Heart Disease Dataset](https://www.kaggle.com/datasets/jo
 
 
 
- 📈 Results
+Results
 
-| Model             | Test Accuracy | CV Accuracy (5-fold) |
-|||-|
-| Decision Tree     | ~81%          | ~79%                 |
-| Random Forest     | ~88%          | ~84%                 |
+| Model              Test Accuracy   CV Accuracy (5-fold) 
+| Decision Tree      81%             79%                 
+| Random Forest      88%             84%                 
 
 - The Random Forest performed better overall, both on the test set and under cross-validation.
-
-
-
- 📁 Files
-
-- `heart.csv`: Dataset used for modeling.
-- `heart_modeling.py` or `notebook.ipynb`: Python code implementing all the steps.
-- `README.md`: Documentation of the project.
-
-
-
- ✅ Requirements
-
-Make sure you have the following installed:
-
-```bash
-pip install pandas scikit-learn matplotlib
